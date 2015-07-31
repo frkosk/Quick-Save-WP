@@ -46,7 +46,7 @@ function my_theme_add_editor_styles() {
     e.preventDefault();
     var theme = document.getElementById('submit');
     var post = document.getElementById('publish');
-    if(theme != "")
+    if(theme != null)
     theme.click();
     else
     post.click();
